@@ -4,7 +4,7 @@
    
     
        @foreach($movies as $movie)
-       <li>{{$movie->title}}</li>
+       <li>@include('partials.moviecard')</li>
        @endforeach
     
     
