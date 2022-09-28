@@ -1,0 +1,49 @@
+.mycards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  margin: auto;
+  width: 60%;
+}
+
+.mycards .card {
+  margin: 10px;
+  border-radius: 20px;
+  width: 30%;
+  background-color: rgb(29, 29, 29);
+}
+
+.mycards .card .img-wrap {
+  width: 100%;
+}
+
+.mycards .card .img-wrap img {
+  width: 100%;
+}
+
+.mycards hgroup {
+  background-color: rgb(46, 46, 46);
+  width: 100%;
+}
+
+.mycards hgroup h2 {
+  padding: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.mycards hgroup h3,
+.mycards hgroup h4,
+.mycards hgroup h5 {
+  padding: 10px;
+}
+
+.mycards .movieVote {
+  color: rgb(74, 74, 74);
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: blanchedalmond;
+}
+

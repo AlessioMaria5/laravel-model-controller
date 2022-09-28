@@ -1,0 +1,60 @@
+.mycards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+
+    margin: auto;
+    width: 60%;
+    
+
+    .card {
+        
+        margin: 10px;
+        border-radius: 20px;
+        
+        width: calc(90% / 3);
+        background-color: rgb(29, 29, 29);
+        .img-wrap {
+            width: 100%;
+            
+            img {
+                width: 100%;
+               
+            }
+        }
+    }
+
+    hgroup {
+        background-color: rgb(46, 46, 46);
+            width: 100%;
+
+        h2 {
+            padding: 10px;
+
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+
+        h3,h4,h5 {
+             padding: 10px;
+        }
+
+        h4 {
+
+        }
+
+        h5 {
+
+        }
+    }
+
+    .movieVote {
+        color: rgb(74, 74, 74);
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 10px;
+        background-color: blanchedalmond;
+    }
+}

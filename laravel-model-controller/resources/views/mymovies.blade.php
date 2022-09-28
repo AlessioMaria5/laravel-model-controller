@@ -2,10 +2,11 @@
 
 @section ('content')
    
-    
-       @foreach($movies as $movie)
-       <li>@include('partials.moviecard')</li>
-       @endforeach
+    <section class="mycards">
+        @foreach($movies as $movie)
+        @include('partials.moviecard')
+        @endforeach
+    </section>
     
     
 @endsection

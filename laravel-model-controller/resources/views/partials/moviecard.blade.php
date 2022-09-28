@@ -1,3 +1,5 @@
+
+
 <div class="card">
     <div class="img-wrap">
         <img src="https://socialistmodernism.com/wp-content/uploads/2017/07/placeholder-image.png?w=640" alt="">
